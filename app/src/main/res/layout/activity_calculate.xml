@@ -24,7 +24,6 @@
             android:layout_margin="24dp"
             android:text="Informe os dados solicitados abaixo"
             android:textAlignment="center"
-            android:textColor="@color/gold"
             style="@style/Title_two"
             />
     </LinearLayout>
