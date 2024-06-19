@@ -4,5 +4,9 @@
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/main_color</item>
         <item name="android:statusBarColor">@color/secondary_color</item>
+
     </style>
+
+
+
 </resources>

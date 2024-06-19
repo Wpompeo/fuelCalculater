@@ -57,7 +57,6 @@ class CalculateActivity : AppCompatActivity() {
                 intent.putExtra(KEY_RESULT_AUTONOMY_GASOLINE, autonomyGasoline)
                 intent.putExtra(KEY_RESULT_AUTONOMY_ALCOHOL, autonomyAlcohol)
                 intent.putExtra(KEY_RESULT_GAS, toUse)
-
                 startActivity(intent)
 
             }

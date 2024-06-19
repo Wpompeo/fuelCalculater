@@ -7,4 +7,47 @@
     </style>
 
     <style name="Theme.FuelCalculater" parent="Base.Theme.FuelCalculater" />
+
+    <!--estilo para titulo da primeira tela do app -->
+    <style name="Title_one" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <!--estilo para sub_titulo da primeira tela do app -->
+    <style name="Title_one_sub" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondary_color</item>
+    </style>
+
+    <!--estilo para titulo da segunda tela do app -->
+    <style name="Title_two" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondary_color</item>
+    </style>
+
+    <!--estilo para titulo da terceira tela do app -->
+    <style name="Title_three" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <!--estilo para titulo dos TextInputEditText -->
+    <style name="Input_Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondary_color</item>
+    </style>
+
+    <!--estilo para button -->
+    <style name="Button" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
 </resources>

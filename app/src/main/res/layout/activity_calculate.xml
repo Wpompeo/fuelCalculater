@@ -18,15 +18,15 @@
         app:layout_constraintBaseline_toTopOf="parent"
         >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="24dp"
-        android:text="Informe os dados solicitados abaixo"
-        android:textAlignment="center"
-        android:textColor="@color/gold"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="Informe os dados solicitados abaixo"
+            android:textAlignment="center"
+            android:textColor="@color/gold"
+            style="@style/Title_two"
+            />
     </LinearLayout>
 
     <Button
@@ -34,9 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/secondary_color"
-        android:textColor="@color/gold"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        style="@style/Button"
         android:text="Calcular"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -98,9 +96,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Veículo:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/secondary_color"
+        style="@style/Input_Title"
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
@@ -113,9 +109,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Posto:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/secondary_color"
+        style="@style/Input_Title"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="15dp"
@@ -173,9 +167,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Valor:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/secondary_color"
+        style="@style/Input_Title"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="10dp"

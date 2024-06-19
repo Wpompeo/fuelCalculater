@@ -39,8 +39,6 @@ class ResultActivity : AppCompatActivity() {
             tvResultAutonomy.text = resultAutonomyAlcohol.toString() + " KM"
         } else {
             tvResultAutonomy.text = resultAutonomyGasoline.toString() + " KM"
-
         }
-
     }
 }

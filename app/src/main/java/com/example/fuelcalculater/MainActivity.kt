@@ -12,18 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnInit = findViewById<Button>(R.id.btn_init)
-
-
         btnInit.setOnClickListener{
 
             val intent = Intent(this, CalculateActivity::class.java)
             startActivity(intent)
-
-
-
-            print("Button action")
-
         }
-
     }
 }

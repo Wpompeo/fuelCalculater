@@ -26,9 +26,7 @@
             android:layout_marginTop="35dp"
             android:text="A sua melhor alternativa de combustível é"
             android:textAlignment="center"
-            android:textColor="@color/gold"
-            android:textSize="28dp"
-            android:textStyle="bold" />
+            style="@style/Title_three" />
 
         <ImageView
             android:layout_width="360dp"
