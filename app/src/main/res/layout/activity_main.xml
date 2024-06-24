@@ -19,12 +19,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:layout_width="wrap_content"
+            style="@style/Title_one"
+            android:layout_width="383dp"
             android:layout_height="wrap_content"
             android:layout_margin="24dp"
-            android:text="Calculadora de abastecimento"
-            android:textAlignment="center"
-            style="@style/Title_one"/>
+            android:text="@string/summary_subtitle"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="450dp"
-        android:text="Álcool ou Gasolina ?"
+        android:text="@string/second_subtitle"
         android:textAlignment="center"
         style="@style/Title_one_sub"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:backgroundTint="@color/secondary_color"
-        android:text="Iniciar"
+        android:text="@string/button_init"
         style="@style/Button"
         app:layout_constraintBottom_toBottomOf="@+id/fuel_img"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculadoraAbastecimento</string>
+    <string name="summary_subtitle">Calculadora de abastecimento</string>
+    <string name="second_subtitle">Álcool ou Gasolina ?</string>
+    <string name="button_init">Iniciar</string>
+    <string name="summary_subtitle_two">Informe os dados solicitados abaixo</string>
+    <string name="text_group_one">Posto:</string>
+    <string name="text_alcohol_price">Preço do litro do álcool ex : 5.00</string>
+    <string name="text_group_two">Veículo:</string>
+    <string name="text_group_three">Valor:</string>
+    <string name="text_price_gasoline">Preço do litro da gasolina ex : 5.00</string>
+    <string name="text_alcohol_miles">km/lt álcool ex: 5.00</string>
+    <string name="text_gasoline_miles">Km/lt gasolina ex: 6.00</string>
+    <string name="text_value_supply">valor abastecimento ex: 50.00</string>
+    <string name="button_calculate">Calcular</string>
+    <string name="three_subtitle">A sua melhor alternativa de combustível é</string>
+    <string name="text_result">Você terá uma autonomia de:</string>
+    <string name="text_distance">Quilômetros</string>
+    <string name="result_fuel_alcohol">ÁLCOOL</string>
+    <string name="result_fuel_gasoline">GASOLINA</string>
+</resources>

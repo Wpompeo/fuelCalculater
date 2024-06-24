@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">fuelCalculater</string>
+    <string name="app_name">fuelCalculate</string>
+    <string name="summary_subtitle">Supply Calculator</string>
+    <string name="second_subtitle">alcohol or gasoline ?</string>
+    <string name="button_init">Start</string>
+    <string name="summary_subtitle_two">Enter the requested data below</string>
+    <string name="text_group_one">Post:</string>
+    <string name="text_alcohol_price">Liter alcohol price ex : 5.00</string>
+    <string name="text_group_two">Car:</string>
+    <string name="text_group_three">Value:</string>
+    <string name="text_price_gasoline">Liter gasoline price ex : 5.00</string>
+    <string name="text_alcohol_miles">mi/lt alcohol ex: 5.00</string>
+    <string name="text_gasoline_miles">mi/lt gasoline ex: 6.00</string>
+    <string name="text_value_supply">supply value ex: 50.00</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="three_subtitle">Your best fuel alternative is</string>
+    <string name="text_result">you will have autonomy of</string>
+    <string name="text_distance">Miles</string>
+    <string name="result_fuel_alcohol">ALCOHOL</string>
+    <string name="result_fuel_gasoline">GASOLINE</string>
 </resources>

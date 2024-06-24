@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            android:text="A sua melhor alternativa de combustível é"
+            android:text="@string/three_subtitle"
             android:textAlignment="center"
             style="@style/Title_three" />
 
@@ -49,13 +49,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.376"
-        tools:text="Gasolina" />
+        tools:text="Gasoline" />
 
     <TextView
         android:id="@+id/tv_result_autonomy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Você terá uma autonomia de:"
+        android:text="@string/text_result"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,7 +85,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quilômetros"
+        android:text="@string/text_distance"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"

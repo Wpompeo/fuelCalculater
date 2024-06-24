@@ -26,10 +26,10 @@ class ResultActivity : AppCompatActivity() {
 
         val classification: String = if (resultType <= 0.7f){
             tvResultTypeFinal.setTextColor(getColor(R.color.Green))
-            "ÁLCOOL"
+            getString(R.string.result_fuel_alcohol)
         } else{
             tvResultTypeFinal.setTextColor(getColor(R.color.secondary_color))
-            "GASOLINA"
+            getString(R.string.result_fuel_gasoline)
         }
         tvResultTypeFinal.text = classification
 
